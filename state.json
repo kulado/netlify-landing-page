@@ -1,0 +1,215 @@
+{
+  "$": {
+    "serviceId": "qv2977chf2"
+  },
+  "landing-page": {
+    "instanceId": "qv2977chf2-j03qgsph"
+  },
+  "landing-page:myNetlifySite": {
+    "instanceId": "qv2977chf2-g9elfv0b",
+    "type": "netlify-site",
+    "internallyManaged": false,
+    "rootPath": "node_modules/serverless-components/registry/netlify-site",
+    "inputs": {
+      "netlifyApiToken": "e564584dfcccf2342bd6cb01ee8be48482e92e8b2b07288ccf8b039f40892fc6",
+      "githubApiToken": "f97dd8a8c0482f954bec3330adc2b0a27ee98632",
+      "siteName": "srvrless.netlify.com",
+      "siteDomain": "www.srvrless.com",
+      "siteRepo": "https://github.com/kulado/netlify-landing-page",
+      "siteBuildCommand": "npm run build",
+      "siteBuildDirectory": "build",
+      "siteRepoBranch": "master",
+      "siteRepoAllowedBranches": [
+        "master"
+      ],
+      "siteForceSSL": true
+    },
+    "state": {
+      "netlifyApiToken": "e564584dfcccf2342bd6cb01ee8be48482e92e8b2b07288ccf8b039f40892fc6",
+      "githubApiToken": "f97dd8a8c0482f954bec3330adc2b0a27ee98632",
+      "siteName": "srvrless.netlify.com",
+      "siteDomain": "www.srvrless.com",
+      "siteRepo": "https://github.com/kulado/netlify-landing-page",
+      "siteBuildCommand": "npm run build",
+      "siteBuildDirectory": "build",
+      "siteRepoBranch": "master",
+      "siteRepoAllowedBranches": [
+        "master"
+      ],
+      "siteForceSSL": true,
+      "githubDeployKeyData": {
+        "id": 36184942,
+        "key": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDFEemEkFKD0oIV4n5wjQia4yLhS6VESXHXqvmmm62drnfKBdP0zIJ4yowR7JDUy+BaV+zqgT5QSZXIjqxtKn55BPh26pOOaxs5AlNSNSLjhu2hKEkogWJdAoV7ECVG5IipZnfHYGcaWv7BzdtpoQBDEmKld8HWYp3NKYujG8Eg8pd8x84lRnkWAwbPvd6PmxqKM8CTrvDEQXiJgxKOhXY2TlVrE6AD21WACWcfn/BuMvTRp6J4cuaQKMh2uwhno90njNIyRh8b70OHfXOZk7bIDgzlgdgf5/PirF9Ao4XLhTGt1Qu38qazjDj4Hj81wVdL+xE5BbKlJ79MWQ5BzIW7",
+        "url": "https://api.github.com/repos/kulado/netlify-landing-page/keys/36184942",
+        "title": "Netlify Deploy Key",
+        "verified": true,
+        "created_at": "2019-07-08T13:11:37Z",
+        "read_only": true
+      },
+      "githubWebhookData": {
+        "message": "Validation Failed",
+        "errors": [
+          {
+            "resource": "Hook",
+            "code": "custom",
+            "message": "Hook already exists on this repository"
+          }
+        ],
+        "documentation_url": "https://developer.github.com/v3/repos/hooks/#create-a-hook"
+      },
+      "netlifyDeployKeyData": {
+        "id": "5d234108a4cbf963f4ba55e8",
+        "public_key": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDFEemEkFKD0oIV4n5wjQia4yLhS6VESXHXqvmmm62drnfKBdP0zIJ4yowR7JDUy+BaV+zqgT5QSZXIjqxtKn55BPh26pOOaxs5AlNSNSLjhu2hKEkogWJdAoV7ECVG5IipZnfHYGcaWv7BzdtpoQBDEmKld8HWYp3NKYujG8Eg8pd8x84lRnkWAwbPvd6PmxqKM8CTrvDEQXiJgxKOhXY2TlVrE6AD21WACWcfn/BuMvTRp6J4cuaQKMh2uwhno90njNIyRh8b70OHfXOZk7bIDgzlgdgf5/PirF9Ao4XLhTGt1Qu38qazjDj4Hj81wVdL+xE5BbKlJ79MWQ5BzIW7",
+        "created_at": "2019-07-08T13:11:36.811Z"
+      },
+      "netlifySiteData": {
+        "errors": {
+          "subdomain": [
+            "must be unique"
+          ],
+          "custom_domain": [
+            "must be unique"
+          ]
+        }
+      },
+      "netlifyDeployCreatedWebhook": {
+        "id": "5d23410a88b91f4224d8aa1d",
+        "site_id": null,
+        "form_id": null,
+        "form_name": null,
+        "user_id": "58c0130e8906b65f7d0b5457",
+        "user": {
+          "id": "58c0130e8906b65f7d0b5457",
+          "uid": null,
+          "full_name": "Eric Baranowski",
+          "avatar_url": "https://avatars3.githubusercontent.com/u/13632941?v=3",
+          "email": "eric@kulado.com",
+          "affiliate_id": "",
+          "site_count": 19,
+          "created_at": "2017-03-08T14:19:59.418Z",
+          "last_login": "2019-06-03T13:52:47.534Z",
+          "login_providers": [
+            "github",
+            "gitlab",
+            "bitbucket",
+            "password"
+          ],
+          "onboarding_progress": {
+            "slides": "closed"
+          },
+          "support_priority": 0,
+          "slug": "ericbaranowski",
+          "sandbox": false,
+          "connected_accounts": {
+            "github": "ericbaranowski",
+            "gitlab": "ericsrepo",
+            "bitbucket": "ericbaranowski"
+          },
+          "tracking_id": "58c0130e8906b65f7d0b5457"
+        },
+        "type": "github_commit_status",
+        "event": "deploy_created",
+        "data": {
+          "access_token": null
+        },
+        "success": null,
+        "created_at": "2019-07-08T13:11:38.285Z",
+        "updated_at": "2019-07-08T13:11:38.285Z",
+        "actor": "deploy",
+        "disabled": null
+      },
+      "netlifyDeployFailedWebhook": {
+        "id": "5d23410a1a9ca52484504a69",
+        "site_id": null,
+        "form_id": null,
+        "form_name": null,
+        "user_id": "58c0130e8906b65f7d0b5457",
+        "user": {
+          "id": "58c0130e8906b65f7d0b5457",
+          "uid": null,
+          "full_name": "Eric Baranowski",
+          "avatar_url": "https://avatars3.githubusercontent.com/u/13632941?v=3",
+          "email": "eric@kulado.com",
+          "affiliate_id": "",
+          "site_count": 19,
+          "created_at": "2017-03-08T14:19:59.418Z",
+          "last_login": "2019-06-03T13:52:47.534Z",
+          "login_providers": [
+            "github",
+            "gitlab",
+            "bitbucket",
+            "password"
+          ],
+          "onboarding_progress": {
+            "slides": "closed"
+          },
+          "support_priority": 0,
+          "slug": "ericbaranowski",
+          "sandbox": false,
+          "connected_accounts": {
+            "github": "ericbaranowski",
+            "gitlab": "ericsrepo",
+            "bitbucket": "ericbaranowski"
+          },
+          "tracking_id": "58c0130e8906b65f7d0b5457"
+        },
+        "type": "github_commit_status",
+        "event": "deploy_failed",
+        "data": {
+          "access_token": null
+        },
+        "success": null,
+        "created_at": "2019-07-08T13:11:38.995Z",
+        "updated_at": "2019-07-08T13:11:38.995Z",
+        "actor": "deploy",
+        "disabled": null
+      },
+      "netlifyDeployBuildingWebhook": {
+        "id": "5d23410b7d13055915ea01dc",
+        "site_id": null,
+        "form_id": null,
+        "form_name": null,
+        "user_id": "58c0130e8906b65f7d0b5457",
+        "user": {
+          "id": "58c0130e8906b65f7d0b5457",
+          "uid": null,
+          "full_name": "Eric Baranowski",
+          "avatar_url": "https://avatars3.githubusercontent.com/u/13632941?v=3",
+          "email": "eric@kulado.com",
+          "affiliate_id": "",
+          "site_count": 19,
+          "created_at": "2017-03-08T14:19:59.418Z",
+          "last_login": "2019-06-03T13:52:47.534Z",
+          "login_providers": [
+            "github",
+            "gitlab",
+            "bitbucket",
+            "password"
+          ],
+          "onboarding_progress": {
+            "slides": "closed"
+          },
+          "support_priority": 0,
+          "slug": "ericbaranowski",
+          "sandbox": false,
+          "connected_accounts": {
+            "github": "ericbaranowski",
+            "gitlab": "ericsrepo",
+            "bitbucket": "ericbaranowski"
+          },
+          "tracking_id": "58c0130e8906b65f7d0b5457"
+        },
+        "type": "github_commit_status",
+        "event": "deploy_failed",
+        "data": {
+          "access_token": null
+        },
+        "success": null,
+        "created_at": "2019-07-08T13:11:39.498Z",
+        "updated_at": "2019-07-08T13:11:39.498Z",
+        "actor": "deploy",
+        "disabled": null
+      }
+    }
+  }
+}
